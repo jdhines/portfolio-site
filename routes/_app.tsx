@@ -24,6 +24,9 @@ export default function App({ Component }: AppProps) {
           </header>
           <Component />
         </div>
+        <footer class="p-12 w-full bg-gray-800">
+          <p>Copyright &copy; 2023</p>
+        </footer>
       </body>
     </html>
   );

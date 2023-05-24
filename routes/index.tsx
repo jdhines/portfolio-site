@@ -12,7 +12,7 @@ export default function Home() {
         <h1 class="font-mono text-lg uppercase my-4">Jess Hines</h1>
         <div class="bio flex flex-col">
           <p>
-            Tucson, AZ | <></>
+            Tucson, AZ |{" "}
             <a
               href="https://www.linkedin.com/in/jesshines"
               rel="nofollow"
@@ -24,13 +24,13 @@ export default function Home() {
         </div>
         <p>
           Hi! I'm a passionate web designer with a strong focus on user
-          experience. I have over 15 years of experience in web design and
-          devlopment, and I'm skilled in a variety of front-end frameworks. I'm
-          also a creative thinker and am always looking for new ways to improve
-          the user experience.
+          experience. As a Principal Software Engineer with 15 years of
+          experience in UX/UI design, web development, and agile leadership, I
+          have a proven track record of delivering high-quality, user-friendly
+          software solutions.
         </p>
 
-        <nav class="flex gap-3">
+        <nav class="mt-8 flex gap-3">
           <a href="/experience">
             Experience
           </a>
@@ -52,9 +52,6 @@ export default function Home() {
 
         <About />
       </div>
-      <footer class="p-4 mx-auto max-w-screen-md">
-        <p>Copyright &copy; 2023</p>
-      </footer>
     </>
   );
 }
