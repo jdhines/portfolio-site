@@ -10,14 +10,25 @@ export default function Layout({ Component, state }: PageProps) {
 
       <nav class="mt-4 flex gap-3">
         <a href="/portfolio/ux-design-mediq">
-          UX Design
+          Mediq Web App
+        </a>
+        <a href="/portfolio/ux-design-piedmont">
+          Piedmont Health Site
+        </a>
+        <a href="/portfolio/tradeshow">
+          Career Tradeshow
+        </a>
+        <a href="/portfolio/ux-design-star">
+          STAR Web App
         </a>
         <a href="/portfolio/graphic-design">
           Graphic Design
         </a>
       </nav>
       <div class="layout">
-        <Component />
+        <section class="p-0">
+          <Component />
+        </section>
       </div>
       <a href="#top">top of page</a>
     </>

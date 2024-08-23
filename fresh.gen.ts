@@ -10,7 +10,10 @@ import * as $experience from "./routes/experience.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $portfolio_layout from "./routes/portfolio/_layout.tsx";
 import * as $portfolio_graphic_design from "./routes/portfolio/graphic-design.tsx";
+import * as $portfolio_tradeshow from "./routes/portfolio/tradeshow.tsx";
 import * as $portfolio_ux_design_mediq from "./routes/portfolio/ux-design-mediq.tsx";
+import * as $portfolio_ux_design_piedmont from "./routes/portfolio/ux-design-piedmont.tsx";
+import * as $portfolio_ux_design_star from "./routes/portfolio/ux-design-star.tsx";
 import * as $skills from "./routes/skills.tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import { type Manifest } from "$fresh/server.ts";
@@ -25,7 +28,10 @@ const manifest = {
     "./routes/index.tsx": $index,
     "./routes/portfolio/_layout.tsx": $portfolio_layout,
     "./routes/portfolio/graphic-design.tsx": $portfolio_graphic_design,
+    "./routes/portfolio/tradeshow.tsx": $portfolio_tradeshow,
     "./routes/portfolio/ux-design-mediq.tsx": $portfolio_ux_design_mediq,
+    "./routes/portfolio/ux-design-piedmont.tsx": $portfolio_ux_design_piedmont,
+    "./routes/portfolio/ux-design-star.tsx": $portfolio_ux_design_star,
     "./routes/skills.tsx": $skills,
   },
   islands: {
