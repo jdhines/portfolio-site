@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --color-accent: #333;
 }
@@ -16,6 +20,18 @@ body {
     ". footer .";
 }
 
+h2 {
+  font-size: 2.25rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
 .wrapper {
   grid-area: body;
 }
@@ -26,6 +42,9 @@ body>footer {
 }
 a {
   text-decoration: underline;
+}
+a[data-current] {
+  color: green;
 }
 
 .bio p {
@@ -64,4 +83,4 @@ body .nav {
     padding-left: 25px;
     background-color: rgba(255, 255, 255, .25);
     cursor: pointer;
-}}
+}

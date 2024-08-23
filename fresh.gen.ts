@@ -7,6 +7,7 @@ import * as $_app from "./routes/_app.tsx";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $education from "./routes/education.tsx";
 import * as $experience from "./routes/experience.tsx";
+import * as $feedback from "./routes/feedback.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $portfolio_layout from "./routes/portfolio/_layout.tsx";
 import * as $portfolio_graphic_design from "./routes/portfolio/graphic-design.tsx";
@@ -25,6 +26,7 @@ const manifest = {
     "./routes/api/joke.ts": $api_joke,
     "./routes/education.tsx": $education,
     "./routes/experience.tsx": $experience,
+    "./routes/feedback.tsx": $feedback,
     "./routes/index.tsx": $index,
     "./routes/portfolio/_layout.tsx": $portfolio_layout,
     "./routes/portfolio/graphic-design.tsx": $portfolio_graphic_design,
