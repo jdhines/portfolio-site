@@ -11,7 +11,7 @@ export default function App({ Component }: AppProps) {
           rel="stylesheet"
           href="https://cdn.simplecss.org/simple.min.css"
         />
-        <link rel="stylesheet" href={asset("global.css")} />
+        <link rel="stylesheet" href={asset("/global.css")} />
       </Head>
       <body class="bodyClass">
         <Nav/>

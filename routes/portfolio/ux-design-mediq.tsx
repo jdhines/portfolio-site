@@ -1,6 +1,7 @@
 export default function Mediq() {
+
   return (
-    <>
+    <section>
       <img src="/mediq/mediq0-Logo.png"/>
       <p><b>My role:</b> UX & UI Design, Front-end development (Angular)</p>
       <p><b>Project brief:</b> MEDIQ started life as a Microsoft Access application, and was in use for approximately 10 years. There were actually dozens of copies, one for each new client. It could be quite slow depending on the amount of data, and it hadn’t been updated in years. The ask was to replace them with one web app utilizing a proper database, that could provide fixes and additional features as necessary. The team featured myself in the aboved named role, one database/ETL person, and one person to write the Spring API.</p>
@@ -10,10 +11,10 @@ export default function Mediq() {
       </p>
       <img src="/mediq/mediq1-old_mediq_screens.png"/>
       <p>
-        One of the things I attempted very early in this project was a design sprint with the users. If you haven’t heard of design sprints, it’s an ideation and problem-solving technique first designed at Google Ventures and now detailed in a book called “Sprint: Solve Big Problems and Test New Ideas in Just Five Days” by inventor Jake Knapp. The challenge for me (actually, there were several), was that since this was internal tool, one of the key users was also the appointed “Decider” for what would be in the tool and what wouldn’t make the cut. So a bit of conflict of interests perhaps, but I had to work with it. The other difficulty was in getting buy-in for the suggested 5 days. I knew that 5 days spent in focused problem-solving up front would be more time-efficient than piecemeal meetings for the next few months, but it proved to be impossible to schedule due to attendees having so many other meetings on a weekly basis, so I suggested maybe three days, then two, and in the end could only get commitment from all involved for a single day (and I whittled down the attendee list as much as possible while still having all the necessary user and stakeholder voices). Even that was like pulling teeth (it's true what humor writer Dave Barry said: "If you had to identify, in one word, the reason why the human race has not achieved, and never will achieve, its full potential, that word would be 'meetings.'").
+        One of the things I did very early on in this project (or tried to do), was a design sprint with the users. If you haven’t heard of design sprints, it’s a ideation and problem-solving technique first designed at Google Ventures and now detailed in a book called “Sprint: Solve Big Problems and Test New Ideas in Just Five Days” by inventor Jake Knapp. The challenge with this (actually, there were several), is that, this being an internal tool, one of the key users was also the appointed “Decider” for what would be in the tool and what wouldn’t make the cut. So a bit of conflict of interests perhaps, but it was what it was. The other difficulty was in getting a mere 7 people together for the suggested 5 days. Though in hindsight (but as I expected) 5 days spent in focused problem-solving would have saved that amount many times over, it proved to be impossible to schedule, so I suggested maybe three days, then two, but ended up scheduling about 6 hours, and even that was remarkably hard (someone should do something about all these meetings that take up everyone’s time).
       </p>
       <p>
-        However, any time was better than no time, and that extremely abbreviated design sprint revealed many unspoken assumptions and questions, and resulted in some important decisions being made. One of the first outputs was a simple flow of the process the users employed today that would have to be accommodated in the new tool:
+        However, any time was better than no time, and that extremely abbreviated “Sprint” brought out many unspoken assumptions, questions, and resulted in some important decisions being made. One of the first outputs was a simple flow of the process the users employed today that would have to be accommodated in the new tool:
       </p>
       <img src="/mediq/mediq2-flow map.png"/>
       <h3>
@@ -75,6 +76,6 @@ export default function Mediq() {
       </p>
       <img class="mb-2" src="/mediq/mediq10.1-Home.png" alt="" />
       <img src="/mediq/mediq10.2-dq.png" alt="" />
-    </>
+    </section>
   )
 }
