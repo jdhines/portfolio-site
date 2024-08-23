@@ -1,10 +1,12 @@
 import { asset, Head } from "$fresh/runtime.ts";
 import { AppProps } from "$fresh/src/server/types.ts";
+import { Nav } from "../components/Nav.tsx";
 
 export default function App({ Component }: AppProps) {
   return (
     <html data-custom="data">
       <Head>
+        <link type = "text/css" rel = "stylesheet" href = "https://cdn.jsdelivr.net/gh/HazelBall/Fresh/fresh.min.css"/>
         <link
           rel="stylesheet"
           href="https://cdn.simplecss.org/simple.min.css"
@@ -12,20 +14,12 @@ export default function App({ Component }: AppProps) {
         <link rel="stylesheet" href={asset("global.css")} />
       </Head>
       <body class="bodyClass">
-        <div class="p-4 mx-auto max-w-screen-md">
-          <header class="mb-8">
-            <a href="/">
-              <img
-                src="/logo.svg"
-                class="block mx-auto mb-4 w-32 h-32"
-                alt="the fresh logo: a sliced lemon dripping with juice"
-              />
-            </a>
-          </header>
+        <Nav/>
+        <div class="wrapper">
           <Component />
         </div>
-        <footer class="p-12 w-full bg-gray-800">
-          <p>Copyright &copy; 2023</p>
+        <footer class="p-4">
+          <p class="white">Copyright &copy; 2024</p>
         </footer>
       </body>
     </html>

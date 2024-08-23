@@ -1,4 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
+import { Nav } from "../components/Nav.tsx";
 export default function EducationPage() {
   return (
     <>
