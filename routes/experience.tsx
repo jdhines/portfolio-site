@@ -5,7 +5,10 @@ export default function ExperiencePage() {
       <Head>
         <title>Experience</title>
       </Head>
-      <h2>Experience</h2>
+      <div class="flex justify-between">
+        <h2>Experience</h2>
+        <a href="/Jess-Hines-Resume.pdf">View PDF resume</a>
+      </div>
 
       <section>
         <h3>Tech Lead, Principal Software Engineer</h3>
@@ -13,45 +16,24 @@ export default function ExperiencePage() {
         <p>2015 - Present</p>
         <ul class="list-disc">
           <li>
-            UX/UI designer and web developer. Fluent in HTML, CSS, and
-            Javascript, as well as in principles for clean and effective
-            designs.
+            Improved business unit efficiency by designing and developing applications and automation tools, reducing productivity waste by $3M per year and reducing project timelines by 200-600% resulting in increased customer satisfaction.
           </li>
           <li>
-            Technical/team lead and product owner of a nimble squad focused
-            on innovation and automation projects.
+            Designed and developed applications and tools for internal partners to improve efficiency and customer satisfaction. UX/UI design, web design, and Azure Cloud. Fluent in HTML, CSS, and Javascript. Can speak comfortable to users, stakeholders, developers, and management alike.
           </li>
           <li>
-            Lead user research, problem discovery, prototyping, UX/UI
-            design, and development to replace legacy desktop applications
-            with web applications, resulting in better maintainability,
-            usability, automation, higher quality, and user satisfaction.
+            Spearheaded user research, UX/UI design, and development to replace legacy applications, resulting in better usability and automation.</li>
+          <li>
+            Utilized strong writing skills for clear content design, technical writing, documentation, and presentations.
           </li>
           <li>
-            Build & use design systems to improve speed and enhance user
-            experiences through simplification, consistency, and
-            accessibility.
+            Technical lead, coach, and product owner of an agile squad focused on innovation and automation projects. Interviewed and hired for both junior and senior positions.
           </li>
           <li>
-            Advocate for clean coding principles for improved code quality,
-            developer satisfaction, and enhanced ability to refactor and
-            maintain.
+            Drove the replacement of legacy applications with modern web and cloud technologies, CI/CD, and development leadership, resulting in more automation, higher quality, improved user and client satisfaction, and enhanced associate experience.
           </li>
           <li>
-            Adopt coding style guides to be used by the team to help write
-            consistent, more readable code across developers.
-          </li>
-          <li>
-            Writer, editor, creator of how-to videos, web pages, and
-            articles for colleagues on a variety of subjects to help promote
-            a culture of learning within the team.
-          </li>
-          <li>
-            Led an agile reboot for my team by becoming scrum master
-            certified, coaching the team on best practices, and setting up a
-            consistent work process, resulting in a high-performing team of
-            close-knit associates, and being a example in the business unit
-            for transparency and backlog management.
+            Advocated for and taught clean coding principles for improved quality, developer satisfaction, and enhanced ability to refactor and maintain.
           </li>
         </ul>
       </section>
@@ -62,14 +44,7 @@ export default function ExperiencePage() {
         <p>2012 - 2015</p>
         <ul class="list-disc">
           <li>
-            UX & UI designer, web developer, user researcher, and tester on
-            a new internal full-stack web application to migrate from dozens
-            of individual MS Access applications and increase the efficiency
-            for a core data analysis team.
-          </li>
-          <li>
-            Expanded FirstLine suite to more business units (Defined
-            Contribution, Health & Welfare, Student Debt, and more)
+            Led the requirements gathering, UX/UI design, and web development of a full-stack web application to migrate from single-use, unmaintainable MS Access applications and deliver consistency and vastly improved usability and automation for a core business unit.
           </li>
           <li>
             Invented a method to do test-driven development (TDD) within
@@ -77,16 +52,10 @@ export default function ExperiencePage() {
             business stakeholders
           </li>
           <li>
-            Strong writing skills as a content creator and editor for
-            numerous internal websites, technical and non-technical
-            documentation, and presentations (including for senior
-            leadership).
+            Expanded the FirstLine suite of interactive data templates by 200% to increase the efficiency and shorten timelines for more business units. Invented a test-driven development (TDD) process for faster development and better communication with business stakeholders
           </li>
           <li>
-            Hosted training sessions on topics such as Git, agile, design
-            principles, clean coding practices, and presentation design for
-            internal associates as well as at sessions in partnership with
-            Fidelity’s Women in Technology group.
+            Hosted training sessions on topics such as Git, agile, design principles, clean coding practices, and presentation design.
           </li>
         </ul>
       </section>
@@ -97,15 +66,10 @@ export default function ExperiencePage() {
         <p>2010 - 2012</p>
         <ul class="list-disc">
           <li>
-            Implemented a new reporting platform to automate and standardize
-            client reports across 4 benefits business units, bringing
-            portable Excel reports to clients instead of 1000-page PDF
-            documents that were difficult to analyze and approve.
+            Led research, project planning, and development of a new reporting platform to automate and standardize client reports across business units, bringing portable Excel reports to clients versus the old 1000-page PDF documents that clients hated and that were difficult to analyze and approve.
           </li>
           <li>
-            Expanded the FirstLine suite to cover more layouts with Stock
-            Plan Services, while also refactoring for improved speed of
-            delivery, performance, and accuracy.
+            Expanded the FirstLine suite to cover more layouts with Stock Plan Services, while also refactoring for improved speed of delivery, performance, and accuracy.
           </li>
         </ul>
       </section>
@@ -115,19 +79,13 @@ export default function ExperiencePage() {
         <p>2008 - 2010</p>
         <ul class="list-disc">
           <li>
-            Designed and built a first-of-its-kind automated validation
-            template (FirstLine) for clients to use, saving them and
-            Fidelity dozens of hours and thousands in implementation costs
-            per project, with an estimated $1+ million in savings in the
-            first year of use, plus greatly increased client satisfaction.
+            Designed and built a first-of-its-kind automated validation template (FirstLine) for clients to use, saving them and Fidelity dozens of hours and thousands in implementation costs per project, with an estimated $1+ million in savings in the first year of use, plus greatly increased client satisfaction.
           </li>
           <li>
-            Performed data analysis and validation and supported
-            implementations of external clients’ stock compensation plans.
+            Performed data analysis and validation and supported implementations of external clients' stock compensation plans.
           </li>
           <li>
-            Worked with outside clients and implementation managers to
-            deliver best-in-class conversion services.
+            Worked with outside clients and implementation managers to deliver best-in-class conversion services for employee benefits data.
           </li>
         </ul>
       </section>

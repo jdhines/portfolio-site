@@ -41,10 +41,9 @@ export default function SkillsPage() {
             <b>Cloud:</b> Azure fundamentals, serverless, messaging
           </li>
         </ul>
-        <h2>Assessments from Pluralsight</h2>
-        <p>
+        <p class="mt-8">
           <img
-            src="Skills.png"
+            src="/Pluralsight-Assessments.png"
             alt="summary of skills from Pluralsight assessments"
           />
         </p>
