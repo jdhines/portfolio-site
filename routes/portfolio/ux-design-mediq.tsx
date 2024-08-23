@@ -10,14 +10,14 @@ export default function Mediq() {
       <p>
         Below are some screen shots from the Access tool. One of its biggest failings in my opinion was that it provided no guidance of flow for the user. You had screens of buttons and options, but no specified order of operations, which would have been fine if it didn’t matter  what order you did things in, but it did.
       </p>
-      <img src="/mediq/mediq1-old_mediq_screens.png"/>
+      <img src="/mediq/mediq1-old_mediq_screens.png" alt="previous app used Microsoft Access"/>
       <p>
         One of the things I did very early on in this project (or tried to do), was a design sprint with the users. If you haven’t heard of design sprints, it’s a ideation and problem-solving technique first designed at Google Ventures and now detailed in a book called “Sprint: Solve Big Problems and Test New Ideas in Just Five Days” by inventor Jake Knapp. The challenge with this (actually, there were several), is that, this being an internal tool, one of the key users was also the appointed “Decider” for what would be in the tool and what wouldn’t make the cut. So a bit of conflict of interests perhaps, but it was what it was. The other difficulty was in getting a mere 7 people together for the suggested 5 days. Though in hindsight (but as I expected) 5 days spent in focused problem-solving would have saved that amount many times over, it proved to be impossible to schedule, so I suggested maybe three days, then two, but ended up scheduling about 6 hours, and even that was remarkably hard (someone should do something about all these meetings that take up everyone’s time).
       </p>
       <p>
         However, any time was better than no time, and that extremely abbreviated “Sprint” brought out many unspoken assumptions, questions, and resulted in some important decisions being made. One of the first outputs was a simple flow of the process the users employed today that would have to be accommodated in the new tool:
       </p>
-      <img src="/mediq/mediq2-flow map.png"/>
+      <img src="/mediq/mediq2-flow map.png" alt="Process flow for MEDIQ"/>
       <h3>
         Features to be built, or jobs to be done?
       </h3>
@@ -30,7 +30,7 @@ export default function Mediq() {
       <p>
         So, with my newfound knowledge, I set about applying it to each of the core (real) users of MEDIQ and created what I called “Outcome Cards” for each that focused on that user’s concerns and goals. Here’s a couple examples:
       </p>
-      <img src="/mediq/mediq3-4-JTBDs.png" alt="" />
+      <img src="/mediq/mediq3-4-JTBDs.png" alt="jobs to be done for internal and external users" />
 
       <h3>Getting to the UI</h3>
       <p>
@@ -43,15 +43,15 @@ export default function Mediq() {
       <p>
         Initial sketches were pretty rough, which was on purpose of course, being that they were meant to foster discussion around content and flow, not colors and font sizes.
       </p>
-      <img src="/mediq/mediq6-Initial Sketches.png" alt="" />
+      <img src="/mediq/mediq6-Initial Sketches.png" alt="design brief for the project" />
       <p>
         I redid sketches multiple times, both to practice as I’d always been one to jump into a design program, but also because I knew it was quicker. I enjoyed iterating through drawings, and they went from extremely rough to a little less rough...
       </p>
-      <img src="/mediq/mediq7-Second Sketches.png" alt="" />
+      <img src="/mediq/mediq7-Second Sketches.png" alt="paper sketches of the new UI" />
       <p>
         &hellip;and then moved on from that to digital renderings:
       </p>
-      <img src="/mediq/mediq8Data Quality 2.png" alt="" />
+      <img src="/mediq/mediq8Data Quality 2.png" alt="prototype screen" />
 
       <h3>Learnings & Takeaways</h3>
       <p>
@@ -62,7 +62,7 @@ export default function Mediq() {
       </p>
 
       <h3>User Testing</h3>
-      <img src="/mediq/mediq9-user_testing.png" alt="" />
+      <img src="/mediq/mediq9-user_testing.png" alt="a user and user researcher looking at an application" />
       <p>
         As we neared our launch date, one of the things I knew I wanted was user testing one-on-one and in-person. Even though we’d been talking to at least some of the users every week of the project, and they’d seen my sketches, mockups, and played with in-progress screens, they hadn’t actually had a chance to try the tool to accomplish some real work.
       </p>
@@ -75,8 +75,8 @@ export default function Mediq() {
       <p>
         In addition to learning that despite your best efforts, there nearly always be a need to tweak a few things, a crucial bit of education for me was the need to get actual working things into users hands as soon as possible. That has stuck with me, and my aim since this project is to create small, purposeful experiments and get them in front of users as soon as possible.
       </p>
-      <img class="mb-2" src="/mediq/mediq10.1-Home.png" alt="" />
-      <img src="/mediq/mediq10.2-dq.png" alt="" />
+      <img class="mb-2" src="/mediq/mediq10.1-Home.png" alt="login page for the new app" />
+      <img src="/mediq/mediq10.2-dq.png" alt="one of the interactive pages for the new app" />
     </>
   )
 }
