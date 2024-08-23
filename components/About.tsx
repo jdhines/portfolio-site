@@ -2,13 +2,13 @@ export function About() {
   return (
     <section id="about-me">
       <h2>About Me</h2>
-      <p class="mt-8">
+      <p>
         Currently working as a Principal Software Engineer and tech lead at
         Fidelity Investments, I&rsquo;m responsible for building applications to
         support our associates in being more efficient and productive during
         complex and challenging client implementations.
       </p>
-      <p class="mt-8">
+      <p>
         I love crafting experiences that are valuable, meaningful, and
         enjoyable. I have a passion for continuous improvement through
         refactoring, redesign, and automation. Having extensive practice in
@@ -20,7 +20,7 @@ export function About() {
         results and exceed expectations. I&rsquo;m always looking for new
         challenges, and am always eager to learn.
       </p>
-      <p class="mt-8">
+      <p>
         Outside of work, I love mountain biking, woodworking, and playing games
         with my family.
       </p>
