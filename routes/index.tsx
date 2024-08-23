@@ -1,6 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
 import { Nav } from "../components/Nav.tsx";
-import { Button } from "../components/Button.tsx";
 import { About } from "../components/About.tsx";
 
 export default function Home() {
@@ -9,8 +8,8 @@ export default function Home() {
       <Head>
         <title>Jess Hines - Home</title>
       </Head>
-      <h1 class="font-mono text-lg uppercase my-4">Jess Hines</h1>
-      <div class="bio flex flex-col">
+      <div class="bio flex">
+      <h1 class="font-mono text-lg uppercase my-4">Jess Hines | </h1>
         <p>
           Tucson, AZ |{" "}
           <a
@@ -22,7 +21,7 @@ export default function Home() {
           </a>
         </p>
       </div>
-      <p>
+      <p class="mb-8">
         Hi! I'm a passionate web designer with a strong focus on user
         experience. As a Principal Software Engineer with 15 years of
         experience in UX/UI design, web development, and agile leadership, I

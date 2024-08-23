@@ -1,12 +1,14 @@
+import Card from "../../components/Card.tsx";
 export default function Star() {
 
   return (
     <>
-      <h3 class="mb-2">STAR - Web Application</h3>
-      <img src="/star/star0-logo.png"/>
-      <p><b>My role: </b>
-        UX & UI Design, front-end development & deployment
-      </p>
+      <Card header="STAR - Web Application">
+        <div class="flex flex-col gap-4">
+          <img src="/star/star0-logo.png"/>
+          <p class="grow"><b>Role:</b> UX & UI Design, front-end development & deployment</p>
+        </div>
+      </Card>
       <p><b>Project brief: </b>
         The Data Conversion & Implementation team completes dozens of projects each year for clients like Northrop Gruman, AT&T, TimeWarner Cable, and many companies looking for Fidelity to manage their benefits plans. These projects are complicated, and prior to STAR project information and tracking was done in Excel, Access, and email. Moving to a web app that pulled data from a single system and then allowed team members to add data, create status updates and comments, and track budget brought the number of data sources down to one, and provided people with an easier way to track and report on these important projects, bringing better project management and thus smoother implementations for our valued clients.
       </p>
@@ -23,7 +25,7 @@ export default function Star() {
       <p>
         I held a number of what I now realize were design thinking sessions, although at the time I just considered it “finding root problems to solve” vs simply building what the users asked for. A key design focus of mine at this time was providing breathing room for the components, especially since the old Access app was so jam-packed.
       </p>
-      <img src="/star/star2-mockups.png" alt="mockups of the new web app" />
+      <p><img src="/star/star2-mockups.png" alt="mockups of the new web app" /></p>
 
       <h3>Don’t Fear the “Creep”</h3>
       <p>
@@ -32,7 +34,7 @@ export default function Star() {
       <p>
         In the end, our small team of one database person, one Java API person, and myself the lone design and development person, released STAR to the users and shut off the Access app with no regret wasted. The app was used for about 4 years before newer technologies and business needs made it obsolete.
       </p>
-      <img src="/star/star3-full-screen.png" alt="screenshot of the new web application" />
+      <p><img src="/star/star3-full-screen.png" alt="screenshot of the new web application" /></p>
     </>
   )
 }

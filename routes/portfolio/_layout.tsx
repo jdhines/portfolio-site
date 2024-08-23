@@ -8,7 +8,7 @@ export default function Layout({ Component, state }: PageProps) {
       </Head>
       <h2 id="top">Portfolio</h2>
 
-      <nav class="mt-4 flex gap-3">
+      <nav class="my-4 flex gap-3">
         <a href="/portfolio/ux-design-mediq">
           Mediq Web App
         </a>
@@ -25,7 +25,7 @@ export default function Layout({ Component, state }: PageProps) {
           Graphic Design
         </a>
       </nav>
-      <div class="layout">
+      <div class="layout mt-8">
         <section class="p-0">
           <Component />
         </section>

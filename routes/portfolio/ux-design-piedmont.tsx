@@ -1,12 +1,16 @@
+import Card from "../../components/Card.tsx";
 export default function Piedmont() {
 
   return (
     <>
-      <h3 class="mb-2">Piedmont Health - Website Redesign</h3>
-      <img src="/piedmont/piedmont-logo.png" alt="piedmont health logo"/>
-      <p><b>My role:</b> UX & UI Design</p>
+      <Card header="Piedmont Health - Website Redesign">
+        <div class="flex items-center gap-8">
+          <img class="basis-1/4" src="/piedmont/piedmont-logo.png" alt="piedmont health logo"/>
+          <p class="grow"><b>Role:</b> UX & UI Design</p>
+        </div>
+      </Card>
       <p>
-        <b>Project brief:</b> Common Impact is an organization that pairs skill-based volunteers with local non-profit business through Tech Impact Days. You lend your technical expertise to help solve a problem that the local business was having, and they get over a hurdle at no cost to them. I worked with Piedmont Health Services (PHS), a private non-profit healthcare provider with 12 locations around the Triangle and Piedmont region of North Carolina. Their mission is to reduce barriers and provide quality healthcare for low-income, vulnerable, and underserverd populations (such as minorities), although all patients are welcome. PHS knew their website needed a makeover, and wanted to be sure they were communicating effectively with existing and especially with prospective patients. They feared they were perceived by prospective patients as second-rate and only for those on Medicare/Medicaid, when actually PHS is an innovative and authentically heartfelt organization that has won awards for the services it provides to patients and the community.</p>
+        <b>Project brief:</b> Common Impact is an organization that pairs skill-based volunteers with local non-profit business through Tech Impact Days. I worked with Piedmont Health Services (PHS), a healthcare provider with 12 locations in North Carolina. Their mission is to reduce barriers and provide quality healthcare for low-income, vulnerable, and underserverd populations. PHS knew their website wasn't serving their users well, and they wanted to be sure they were communicating effectively with existing and especially prospective patients. They feared they were perceived by prospective patients as low-quality and only for those on Medicare/Medicaid, when actually PHS is an innovative and authentically heartfelt organization that has won awards for the services it provides to patients and the community.</p>
 
       <h3>Who, me?</h3>
       <p>
@@ -15,11 +19,15 @@ export default function Piedmont() {
       <p>
         Out of that session, we used the Jobs To Be Done framework to narrow down to key user groups and their main needs when coming to the website.
       </p>
-      <img src="/piedmont/piedmont2-jtbd.png" alt="table showing user groups and their needs" />
+      <p>
+        <img src="/piedmont/piedmont2-jtbd.png" alt="table showing user groups and their needs" />
+      </p>
       <p>
         After a furious 4 hours, we had come up with 7 key takeaways that were geared to solve specific problems that had been brought up, and that could be implemented with minimal work since PHS had no in-house web developers and a very small budget to make improvements. We had looked at various other healthcare providers&rsquo; website, identified PHS key users (prospective patients), and asked questions, some of which can be seen here along with their existing home page at the time:
       </p>
-      <img src="/piedmont/piedmont3-homepage.png" alt="old piedmont homepage showing a lack of focus and flow" />
+      <p>
+        <img src="/piedmont/piedmont3-homepage.png" alt="old piedmont homepage showing a lack of focus and flow" />
+      </p>
 
       <p>
         Even given the short time we had, and the limited amount we were able to do, the PHS folks were very grateful for my team&rsquo;s work and suggestions, and the day was declared a success!
@@ -32,7 +40,9 @@ export default function Piedmont() {
       <p>
         Before my team split up, we did manage to hold a focus session where we identified the “red routes,” a concept I had recently learned from my UXD mentor, which are the most important user flows that the website needed to support. In a nutshell, these all centered around answering the question, “Is PHS right for me?” This theme would continue to carry through all the rest of the changes and create a unified message to the website visitor.
       </p>
-      <img src="/piedmont/piedmont4-red-routes.png" alt="whiteboard drawing of critical user flows" />
+      <p>
+        <img src="/piedmont/piedmont4-red-routes.png" alt="whiteboard drawing of critical user flows" />
+      </p>
 
       <h3>Focusing on root problems</h3>
       <p>
@@ -47,20 +57,28 @@ export default function Piedmont() {
       <p>
         Here&rsquo;s a super-high level view of some of the screens that were involved in this effort:
       </p>
-      <img src="/piedmont/piedmont5-mockups.png" alt="screen designs for all the pages changed" />
+      <p>
+        <img src="/piedmont/piedmont5-mockups.png" alt="screen designs for all the pages changed" />
+      </p>
       <p>
         The next image illustrates one of the main reasons for the makeover, and it's a page that underwent a big transformation. This is the main page that outlines the offered services. It should answer the questions prospective patients might have, and move them closer to considering PHS as the right place for them to call their health provider home. But it is just a wall of text. Good text, and helpful to be sure... if the user actually reads all the way through it.
       </p>
       <p><b>Before:</b></p>
-      <img src="/piedmont/piedmont6-before.png" alt="screenshot of the patient services page before redesign" />
+      <p>
+        <img src="/piedmont/piedmont6-before.png" alt="screenshot of the patient services page before redesign" />
+      </p>
       <p><b>After:</b></p>
-      <img src="/piedmont/piedmont7-after.png" alt="screenshot of the patient services page after redesign" />
+      <p>
+        <img src="/piedmont/piedmont7-after.png" alt="screenshot of the patient services page after redesign" />
+      </p>
 
       <h3>Sendoff</h3>
       <p>
         As a parting shot, below is the redesigned home page. If you recall the first image of the home page above, with all its badges and so many things (most relatively unimportant) calling for attention that nothing really stood out, you probably noticed how hectic it felt. I know that when I first saw it, didn&rsquo;t inspire me to even consider checking them out as a potential healthcare provider. It felt more like what you&rsquo;d expect from a minute-clinic that just opened its doors and only had one nurse who was a transfer from a third-class veterinary school, and not the website of an established local business with 20+ years of providing quality health care to all types of community citizens.
       </p>
-      <img src="/piedmont/piedmont8-homepage.png" alt="screen designs for all the pages changed" />
+      <p>
+        <img src="/piedmont/piedmont8-homepage.png" alt="screen designs for all the pages changed" />
+      </p>
 
       <h3>A Positive Reception</h3>
       <p>
